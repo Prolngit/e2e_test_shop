@@ -1,36 +1,21 @@
 {
-  "uid" : "39a3b66d37caabdf",
+  "uid" : "c12ca5ce1e240d0b",
   "name" : "Вход в аккаунт",
   "fullName" : "tests.test_shopping.TestShopping#test_login",
   "historyId" : "d7ef11b210c2314631bbd93fdc739461",
   "time" : {
-    "start" : 1736982929635,
-    "stop" : 1736982930142,
-    "duration" : 507
+    "start" : 1736985581695,
+    "stop" : 1736985582251,
+    "duration" : 556
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1736982929252,
-      "stop" : 1736982929634,
-      "duration" : 382
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_xunit_setup_method_fixture_TestShopping",
     "time" : {
-      "start" : 1736982929634,
-      "stop" : 1736982929634,
+      "start" : 1736985581694,
+      "stop" : 1736985581694,
       "duration" : 0
     },
     "status" : "passed",
@@ -39,17 +24,32 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1736985581309,
+      "stop" : 1736985581694,
+      "duration" : 385
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open page",
       "time" : {
-        "start" : 1736982929635,
-        "stop" : 1736982929882,
-        "duration" : 247
+        "start" : 1736985581695,
+        "stop" : 1736985581972,
+        "duration" : 277
       },
       "status" : "passed",
       "steps" : [ ],
@@ -57,14 +57,14 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "https://www.saucedemo.com/ is opened",
       "time" : {
-        "start" : 1736982929882,
-        "stop" : 1736982929886,
-        "duration" : 4
+        "start" : 1736985581972,
+        "stop" : 1736985581981,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -72,14 +72,14 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1736982929886,
-        "stop" : 1736982929969,
-        "duration" : 83
+        "start" : 1736985581981,
+        "stop" : 1736985582068,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
@@ -90,14 +90,14 @@
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1736982929969,
-        "stop" : 1736982930050,
-        "duration" : 81
+        "start" : 1736985582068,
+        "stop" : 1736985582157,
+        "duration" : 89
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,14 +108,14 @@
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Click 'submit'",
       "time" : {
-        "start" : 1736982930050,
-        "stop" : 1736982930142,
-        "duration" : 92
+        "start" : 1736985582157,
+        "stop" : 1736985582251,
+        "duration" : 94
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,36 +123,21 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 5
   },
   "afterStages" : [ {
-    "name" : "driver::0",
-    "time" : {
-      "start" : 1736982930821,
-      "stop" : 1736982930905,
-      "duration" : 84
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_xunit_setup_method_fixture_TestShopping::0",
     "time" : {
-      "start" : 1736982930143,
-      "stop" : 1736982930143,
+      "start" : 1736985582252,
+      "stop" : 1736985582252,
       "duration" : 0
     },
     "status" : "passed",
@@ -161,15 +146,30 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1736985582942,
+      "stop" : 1736985583029,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Shopping Cart and Checkout"
-  }, {
     "name" : "severity",
     "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Shopping Cart and Checkout"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -181,7 +181,7 @@
     "value" : "TestShopping"
   }, {
     "name" : "host",
-    "value" : "64703b8336ff"
+    "value" : "21f634c66b83"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -208,6 +208,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "39a3b66d37caabdf.json",
+  "source" : "c12ca5ce1e240d0b.json",
   "parameterValues" : [ ]
 }

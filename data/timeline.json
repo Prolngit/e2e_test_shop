@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "64703b8336ff",
+    "name" : "21f634c66b83",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Покупка товара",
-        "uid" : "c701afd9a9216d67",
-        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
+        "uid" : "a6ed5cf7cc6385dc",
+        "parentUid" : "da8ec7e787b1d97d1dd61330ef4fb200",
         "status" : "passed",
         "time" : {
-          "start" : 1736982930256,
-          "stop" : 1736982930820,
-          "duration" : 564
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Вход в аккаунт",
-        "uid" : "39a3b66d37caabdf",
-        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1736982929635,
-          "stop" : 1736982930142,
-          "duration" : 507
+          "start" : 1736985582368,
+          "stop" : 1736985582941,
+          "duration" : 573
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление товара в корзину",
-        "uid" : "df5cfc29b0b1ce02",
-        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
+        "uid" : "9b831b84d5c26b88",
+        "parentUid" : "da8ec7e787b1d97d1dd61330ef4fb200",
         "status" : "passed",
         "time" : {
-          "start" : 1736982930146,
-          "stop" : 1736982930254,
-          "duration" : 108
+          "start" : 1736985582254,
+          "stop" : 1736985582365,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход в аккаунт",
+        "uid" : "c12ca5ce1e240d0b",
+        "parentUid" : "da8ec7e787b1d97d1dd61330ef4fb200",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736985581695,
+          "stop" : 1736985582251,
+          "duration" : 556
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "768c057fb5fa8b48a352e2e531aac7ca"
+      "uid" : "da8ec7e787b1d97d1dd61330ef4fb200"
     } ],
-    "uid" : "2bbacdc8c7637744b41339495b14c5f4"
+    "uid" : "fa3431cc48766a42eb186584afd2a71a"
   } ],
   "name" : "timeline"
 }

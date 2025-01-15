@@ -1,3 +1,5 @@
 .env
 *.iml
 results
+.idea
+__pycashe__

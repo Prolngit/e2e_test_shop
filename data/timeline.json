@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "83bf8b3c4620",
+    "name" : "64703b8336ff",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Вход в аккаунт",
-        "uid" : "75eeb3a42e574c2",
-        "parentUid" : "0a3ed630cbe2d6b6216db465446156cb",
+        "name" : "Покупка товара",
+        "uid" : "c701afd9a9216d67",
+        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
         "status" : "passed",
         "time" : {
-          "start" : 1736982597209,
-          "stop" : 1736982597798,
-          "duration" : 589
+          "start" : 1736982930256,
+          "stop" : 1736982930820,
+          "duration" : 564
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Покупка товара",
-        "uid" : "d7bcd31636dba46a",
-        "parentUid" : "0a3ed630cbe2d6b6216db465446156cb",
+        "name" : "Вход в аккаунт",
+        "uid" : "39a3b66d37caabdf",
+        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
         "status" : "passed",
         "time" : {
-          "start" : 1736982597912,
-          "stop" : 1736982598490,
-          "duration" : 578
+          "start" : 1736982929635,
+          "stop" : 1736982930142,
+          "duration" : 507
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление товара в корзину",
-        "uid" : "b43cd14f9b9c4ad9",
-        "parentUid" : "0a3ed630cbe2d6b6216db465446156cb",
+        "uid" : "df5cfc29b0b1ce02",
+        "parentUid" : "768c057fb5fa8b48a352e2e531aac7ca",
         "status" : "passed",
         "time" : {
-          "start" : 1736982597802,
-          "stop" : 1736982597910,
+          "start" : 1736982930146,
+          "stop" : 1736982930254,
           "duration" : 108
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0a3ed630cbe2d6b6216db465446156cb"
+      "uid" : "768c057fb5fa8b48a352e2e531aac7ca"
     } ],
-    "uid" : "05ca865e3cc413929e38cc29d3d19cd6"
+    "uid" : "2bbacdc8c7637744b41339495b14c5f4"
   } ],
   "name" : "timeline"
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "3138be858b788163",
-  "name" : "Вход в аккаунт",
-  "fullName" : "tests.test_shopping.TestShopping#test_login",
-  "historyId" : "d7ef11b210c2314631bbd93fdc739461",
+  "uid" : "b43cd14f9b9c4ad9",
+  "name" : "Добавление товара в корзину",
+  "fullName" : "tests.test_shopping.TestShopping#test_add",
+  "historyId" : "b2985fc40d33c65e91327a88c15dac18",
   "time" : {
-    "start" : 1736982148101,
-    "stop" : 1736982148631,
-    "duration" : 530
+    "start" : 1736982597802,
+    "stop" : 1736982597910,
+    "duration" : 108
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "_xunit_setup_method_fixture_TestShopping",
     "time" : {
-      "start" : 1736982147680,
-      "stop" : 1736982148100,
-      "duration" : 420
+      "start" : 1736982597801,
+      "stop" : 1736982597801,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_xunit_setup_method_fixture_TestShopping",
+    "name" : "driver",
     "time" : {
-      "start" : 1736982148100,
-      "stop" : 1736982148100,
-      "duration" : 0
+      "start" : 1736982596842,
+      "stop" : 1736982597208,
+      "duration" : 366
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,11 +45,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open page",
+      "name" : "https://www.saucedemo.com/inventory.html is opened",
       "time" : {
-        "start" : 1736982148101,
-        "stop" : 1736982148357,
-        "duration" : 256
+        "start" : 1736982597802,
+        "stop" : 1736982597805,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,11 +60,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "https://www.saucedemo.com/ is opened",
+      "name" : "Добавить товар в корзину",
       "time" : {
-        "start" : 1736982148357,
-        "stop" : 1736982148362,
-        "duration" : 5
+        "start" : 1736982597805,
+        "stop" : 1736982597847,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,47 +75,26 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Enter login",
+      "name" : "Проверка на визуализацию товара в корзине",
       "time" : {
-        "start" : 1736982148362,
-        "stop" : 1736982148452,
-        "duration" : 90
+        "start" : 1736982597847,
+        "stop" : 1736982597864,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "login",
-        "value" : "'standard_user'"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : false
     }, {
-      "name" : "Enter password",
+      "name" : "Открыть корзину",
       "time" : {
-        "start" : 1736982148452,
-        "stop" : 1736982148538,
-        "duration" : 86
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "password",
-        "value" : "'secret_sauce'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Click 'submit'",
-      "time" : {
-        "start" : 1736982148538,
-        "stop" : 1736982148631,
-        "duration" : 93
+        "start" : 1736982597864,
+        "stop" : 1736982597909,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -130,15 +109,15 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 5,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "driver::0",
+    "name" : "_xunit_setup_method_fixture_TestShopping::0",
     "time" : {
-      "start" : 1736982149336,
-      "stop" : 1736982149423,
-      "duration" : 87
+      "start" : 1736982597910,
+      "stop" : 1736982597910,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -149,11 +128,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_xunit_setup_method_fixture_TestShopping::0",
+    "name" : "driver::0",
     "time" : {
-      "start" : 1736982148632,
-      "stop" : 1736982148632,
-      "duration" : 0
+      "start" : 1736982598490,
+      "stop" : 1736982598575,
+      "duration" : 85
     },
     "status" : "passed",
     "steps" : [ ],
@@ -181,7 +160,7 @@
     "value" : "TestShopping"
   }, {
     "name" : "host",
-    "value" : "cef23449cd6e"
+    "value" : "83bf8b3c4620"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -208,6 +187,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3138be858b788163.json",
+  "source" : "b43cd14f9b9c4ad9.json",
   "parameterValues" : [ ]
 }

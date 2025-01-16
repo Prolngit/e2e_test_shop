@@ -4,7 +4,10 @@ on:
   workflow_dispatch:  
 
 jobs:
-  ui-tests:
+  example-job:
+    permissions:
+      contents: read
+      issues: write
     runs-on: ubuntu-latest
 
     steps:
